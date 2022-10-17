@@ -1,0 +1,8 @@
+#put this in c:/users/<user_name>/.gitconfig in order to set up beyond compare
+[diff]
+	tool = bc4
+[difftool "bc4"]
+	cmd = \"C:\\Program Files\\Beyond Compare 4\\bcomp.exe\" -s \"$LOCAL\" -d \"$REMOTE\"
+	prompt = false
+[alias]
+	d = "difftool --dir-diff"
